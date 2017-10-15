@@ -1,0 +1,114 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+}
+
+body{
+    max-width:1000px;
+    min-width:650px;
+	margin: 0 auto;
+    background-color:white;
+    font-family: '微軟正黑體';
+}
+
+#all_info{
+    width:35%;
+    height:100%;
+    padding:50px 35px 50px 30px;
+    font-size:12px;
+    float:left;
+    background-color:black;
+    color:white;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+#all_info::-webkit-scrollbar {
+    display: none;
+}
+
+#my_photo{
+    text-align : center;
+}
+
+#name{
+    margin-top:30px;
+    padding-left:1em;
+}
+
+#portfolio{
+    height:100%;
+    background-color:#e9e9e9;
+    overflow-x:hidden;
+    overflow-y:auto;
+    font-size:1em;
+}
+#portfolio::-webkit-scrollbar {
+    display: none;
+}
+
+#personal_info{
+    font-size: 0.9em;
+}
+#personal_info ul{
+    list-style:none;
+}
+#personal_info a {
+    color:white;
+    text-decoration:none;
+}
+
+#experience{
+    font-size:0.9em;
+    margin-top:50px;
+}
+
+#graduate{
+    margin-left:3em;
+}
+
+nav a{
+    color:dimgray;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+p{
+    text-indent:2em;
+    padding:30px 100px 30px 100px;
+    line-height:2em;
+}
+
+h1{
+    font-size: 1.7em;
+}
+
+h2{
+    font-size: 1.3em;
+    padding-left:0.3em;
+}
+
+h3{
+    padding-left:1em;
+}
+
+h4::first-letter{
+    font-size: 1.2em;
+}
+h4{
+    text-align: right;
+    padding-right: 1em;
+}
+h5{
+    text-align: right;
+    padding-right: 1em;
+}
+
+
